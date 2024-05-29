@@ -1,0 +1,21 @@
+body {
+  margin: auto;
+    background: hsl(212, 45%, 89%);
+}
+.rectangle {    
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 17px;
+}
+
+.text1 {
+    text-align: center;
+    padding-top: 90%;
+    width: 315px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: #1f314f;
+}
