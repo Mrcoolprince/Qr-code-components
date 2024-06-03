@@ -4,20 +4,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### Screenshot
 
@@ -29,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [Add live site URL here](https://mrcoolprince.github.io/Qr-code-components/)
 
 ## My process
-
+ First i started from observing the figma file which gave me a good idea of how to start, Then i moved to the html part from creating a div for the first container which will contain our Qr code and paragraph then created another div and container for the qr code image part then continued by creating the paragraph part at last the attribution part. Next moving to the css part i started by giving my desktop a proper margin to hold my html structure in place the continued by coloring it to match the figma and continued to the container part which will contain everything(the Qr code image and the paragraph) after giving the container a proper margin and padding which helped me to hold it in position and followed by width and height the container had been finished moving to the Qr code image which was done by width and height in addition to the border-radius. Then continuing to the paragraph part i started by giving it a proper font weight and font style which was the easy part thanks to google font then finished it by giving it the font size.
 ### Built with
 
 - Semantic HTML5 markup
@@ -39,51 +34,48 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned a lot of things which helped me to test my knowledge specially the Css parts.
 
-To see how you can add code snippets, see below:
+I will show you the best parts below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#rectangle {    
+    background-color: hsl(0, 0%, 100%);
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    margin-top: 11%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05);
+}
+#text2 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    display: inline-block;
+    left: 0%;
+    width: 256px;
+    position: relative;
+    letter-spacing: 0.19px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+As my learning journey continues i will be focussing on the css part specially the css-grid and flex-box which had been a challenge for me.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Resource 1](https://fonts.google.com/m) - This helped me to get great fonts reason. I really liked this website and will use it going forward.
+- [Resource 2](https://www.w3schools.com/) - This is an amazing website which helped me finally understand Css(flex-box and grid). I'd recommend it to anyone still learning this concept.
+- [Resource 3](https://stackoverflow.com/) - This is an outstanding website which helped me find some help concerning my code. I'd recommend it to anyone having the same problem.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@Mrcoolprince](https://www.frontendmentor.io/profile/Mrcoolprince)
+- Twitter - [@Mr_cool_prince](https://www.twitter.com/Mr_cool_prince)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+ I would like to thank FRONT-END MENTOR for helping me advance my coding knowledge and test my self .
